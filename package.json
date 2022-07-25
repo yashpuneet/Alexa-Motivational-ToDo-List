@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yashpuneet/Alexa-Motivational-ToDo-List/issues"
   },
-  "homepage": "https://github.com/yashpuneet/Alexa-Motivational-ToDo-List#readme"
+  "homepage": "https://github.com/yashpuneet/Alexa-Motivational-ToDo-List#readme",
+  "dependencies": {
+    "ask-sdk": "^2.12.1"
+  }
 }
