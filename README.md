@@ -1,0 +1,2 @@
+# Alexa-Motivational-ToDo-List
+This repository is a skill developed for the Amazon Alexa. It aims to randomize task selection for users to avoid the human tendency of selecting the easiest task first and leaving all difficult/more time consuming tasks for later on, often close to the deadline. This skill aims to use Amazon's DynamoDB to store all user tasks as well as motivational quotes will will be accessed through AWS Lambda Functions and sent over to the Alexa-Device.
