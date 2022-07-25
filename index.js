@@ -80,6 +80,6 @@ exports.handler = skillBuilder.addRequestHandlers(
         HelloHandler,
         HelpHandler,
         ExitHandler,
-        SessionEndedRequestHandler
-        ).addErrorHandlers(ErrorHandler)
+        SessionEndedRequestHandler)
+		.addErrorHandlers(ErrorHandler)
         .lambda();
