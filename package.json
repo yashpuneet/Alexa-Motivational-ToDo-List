@@ -1,0 +1,19 @@
+{
+  "name": "alexa-motivational_todo-list",
+  "version": "1.0.0",
+  "description": "Motivational ToDo List Alexa Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashpuneet/Alexa-Motivational-ToDo-List.git"
+  },
+  "author": "Yash Puneet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashpuneet/Alexa-Motivational-ToDo-List/issues"
+  },
+  "homepage": "https://github.com/yashpuneet/Alexa-Motivational-ToDo-List#readme"
+}
