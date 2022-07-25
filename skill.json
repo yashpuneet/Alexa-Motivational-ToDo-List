@@ -1,0 +1,50 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:160515206307:function:c2d51fd0-159c-47e2-a84f-0bbc6c8c1382:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:160515206307:function:c2d51fd0-159c-47e2-a84f-0bbc6c8c1382:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:160515206307:function:c2d51fd0-159c-47e2-a84f-0bbc6c8c1382:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:160515206307:function:c2d51fd0-159c-47e2-a84f-0bbc6c8c1382:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::person_id:read"
+      }
+    ],
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "description": ""
+          "examplePhrases": [
+            
+          ],
+          "keywords": [
+            
+          ],
+          "name": "Task Motivator",
+          "summary": 
+        }
+      }
+    }
+  }
+}
