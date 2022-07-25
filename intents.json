@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "motivational todo",
+            "invocationName": "task motivator",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
