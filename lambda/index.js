@@ -33,6 +33,20 @@ const HelpHandler = {
   },
 };
 
+const GetTaskHandler = {
+    canHandle(handlerInput) {
+        const request = handlerInput.requestEnvelope.request;
+        return (request.type === 'IntentRequest'
+                && request.intent.name === 'GetTaskIntent');
+    },
+    handle(handlerInput) {
+        const speechOutput = "Getting Random Task";
+        return handlerInput.responseBuilder
+            .speak(speechOutput)
+            .getResponse();
+    },
+};
+
 const FallbackHandler = {
   // The FallbackIntent can only be sent in those locales which support it,
   // so this handler will always be skipped in locales where it is not supported.
