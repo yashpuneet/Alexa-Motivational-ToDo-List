@@ -31,6 +31,25 @@
             "hi"
           ]
         }
+		{
+		  "name": "GetTaskIntent",
+          "slots": [],
+          "samples": [
+            "get a task",
+            "task",
+            "a task",
+            "what should I do",
+            "give me something to do",
+            "give me a task",
+            "choose a task from my list",
+            "give me something from my list",
+            "how should I spend my work time",
+            "what do I need to do",
+            "help me choose a task",
+            "help me choose what to do",
+            "motivate me to work"
+          ]
+        }
       ],
       "types": []
     }
